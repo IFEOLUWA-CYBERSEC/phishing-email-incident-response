@@ -12,8 +12,6 @@ Before analysis, the attachment was handled carefully to avoid accidental execut
 
 ### 5.1 Source of Phishing Samples
 
-### 5.1 Source of Phishing Samples
-
 The phishing email samples used in this investigation were obtained from **Malware-Traffic-Analysis.net**, a well-known platform used by cybersecurity professionals for malware and phishing research. The platform provides sanitized but realistic samples intended strictly for educational and defensive analysis.
 
 The selected dataset contained multiple phishing email examples packaged in a compressed archive for controlled distribution.
