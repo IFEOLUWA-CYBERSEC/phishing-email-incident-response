@@ -10,3 +10,6 @@ This timeline outlines the sequence of events during the phishing email investig
 | T3 | IOC enrichment performed using VirusTotal |
 | T4 | Risk assessed as Medium–High |
 | T5 | Remediation actions recommended |
+
+## Supporting Evidence
+Screenshots of IOC enrichment and investigation steps are available in the `screenshots/` directory.
