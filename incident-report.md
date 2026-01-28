@@ -37,3 +37,25 @@ Multiple internal relay headers were observed (127.0.0.1). The earliest public I
 - Analyze indicators using threat intelligence tools
 - Map activity to MITRE ATT&CK
 - Recommend remediation actions
+---
+
+## IOC Enrichment – VirusTotal
+
+The sending IP address `173.46.174.49` was analyzed using VirusTotal.
+
+- Detection Ratio: 0/92
+- Country: United States
+- Community Score: 0
+
+Although no security vendor flagged the IP as malicious at the time of analysis, its presence in a confirmed phishing email indicates suspicious behavior. Threat actors commonly use clean or residential IP addresses to evade reputation-based detection systems.
+## Risk Assessment
+
+This phishing email presents a **Medium to High risk** to the organization.
+
+Potential impact if a user interacted with the email includes:
+- Credential harvesting
+- Unauthorized account access
+- Follow-on phishing attacks
+- Potential malware delivery in later stages
+
+The lack of current detection increases the likelihood of successful social engineering.
