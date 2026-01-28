@@ -59,3 +59,29 @@ Potential impact if a user interacted with the email includes:
 - Potential malware delivery in later stages
 
 The lack of current detection increases the likelihood of successful social engineering.
+
+## MITRE ATT&CK Mapping
+
+Based on the analysis, the phishing activity aligns with the following MITRE ATT&CK techniques:
+
+- **T1566.001 – Phishing: Spearphishing Attachment**
+- **T1566.002 – Phishing: Spearphishing Link**
+
+The attacker attempted to socially engineer the recipient into interacting with malicious content to obtain credentials or execute further payload delivery.
+
+## Response and Remediation Actions
+
+The following actions are recommended to contain and remediate the phishing incident:
+
+- Block the sender IP address and domain at the email gateway and firewall.
+- Remove the phishing email from all user inboxes.
+- Reset credentials for any users who interacted with the email.
+- Monitor for additional emails originating from related infrastructure.
+- Conduct user awareness training to prevent similar phishing attempts.
+
+## Incident Conclusion
+
+This incident involved a phishing email designed to deceive users and potentially harvest credentials.  
+Although the sending IP address was not flagged by reputation-based tools, contextual analysis confirms malicious intent.
+
+Timely detection, IOC enrichment, and user awareness are critical to reducing the impact of similar phishing campaigns in the future.
