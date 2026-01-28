@@ -40,9 +40,12 @@ A full incident report documenting analysis, response actions, and lessons learn
 
 ### Email Header Analysis
 ![Email Header Analysis](screenshots/Screenshot%202026-01-28%20140546.png)
+This screenshot shows the analysis of SMTP headers used to identify the email origin and delivery path.
 
 ### IOC Enrichment – VirusTotal
 ![VirusTotal IP Analysis](screenshots/Screenshot%202026-01-28%20153857.png)
+This screenshot shows the analysis of SMTP headers used to identify the email origin and delivery path.
 
 ### GitHub Project Structure
 ![Repository Overview](screenshots/Screenshot%202026-01-28%20154020.png)
+This screenshot shows the analysis of SMTP headers used to identify the email origin and delivery path.
