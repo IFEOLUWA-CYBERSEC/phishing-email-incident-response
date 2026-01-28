@@ -13,6 +13,15 @@ This project documents the analysis of a suspected phishing email as part of a S
 - Screenshots of header review
 ## Email Header Analysis
 
+## Indicators of Compromise (IOCs)
+
+| Type | Value | Description |
+|------|-------|-------------|
+| IP Address | 173.46.174.49 | Original sending IP identified from email headers |
+| Domain | malware-traffic-analysis.net | Sender display domain |
+| Domain | mail.nmifi.com | Sending mail server infrastructure |
+
+
 **From:** brad@malware-traffic-analysis.net  
 **Sender Domain:** malware-traffic-analysis.net  
 
