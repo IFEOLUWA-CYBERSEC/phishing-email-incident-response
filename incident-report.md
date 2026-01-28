@@ -11,6 +11,16 @@ This project documents the analysis of a suspected phishing email as part of a S
 ## Evidence Collected
 - Raw email headers
 - Screenshots of header review
+## Email Header Analysis
+
+**From:** brad@malware-traffic-analysis.net  
+**Sender Domain:** malware-traffic-analysis.net  
+
+**Sending IP:** 173.46.174.49  
+**Sending Mail Server:** mail.nmifi.com  
+
+**Analysis Notes:**
+Multiple internal relay headers were observed (127.0.0.1). The earliest public IP address was identified as the original sending source.
 
 ## Next Steps
 - Complete email header analysis
