@@ -11,13 +11,9 @@ Before analysis, the attachment was handled carefully to avoid accidental execut
 ## 5. Sample Acquisition & Safe Handling
 
 ### 5.1 Source of Phishing Samples
-
 The phishing email samples used in this investigation were obtained from **Malware-Traffic-Analysis.net**, a well-known platform used by cybersecurity professionals for malware and phishing research. The platform provides sanitized but realistic samples intended strictly for educational and defensive analysis.
 
 The selected dataset contained multiple phishing email examples packaged in a compressed archive for controlled distribution.
-
----
-
 ### 5.2 Password-Protected Archive Verification
 
 To reduce the risk of accidental execution or automated scanning, the phishing samples were distributed within a password-protected ZIP archive. Before extraction, the password scheme was verified from the website’s **About** page.
@@ -29,36 +25,31 @@ For the selected archive dated **May 5, 2020**, the verified password was:
 
 
 This verification step ensured the archive was accessed safely and intentionally.
-
----
-
 ### 5.3 Secure Extraction Using 7-Zip
 
 The compressed archive was extracted using **7-Zip** in a controlled environment. No files were executed during this process. The correct password (`infected_20200505`) was supplied manually to extract the contents securely.
 
 This step allowed safe access to the phishing artifacts while maintaining proper malware-handling precautions.
-
----
-
 ### 5.4 Extracted Email Artifacts
 
 After successful extraction, multiple phishing email samples in `.eml` format were identified. These email files represent real-world phishing attempts and were prepared for further analysis, including header inspection, content review, and indicator extraction.
+### 5.5 Supporting Evidence (Screenshots)
 
-The extracted files include:
+The following screenshots document the secure handling, extraction, and verification process used during this investigation.
 
-- 2020-05-05-phishing-email-example-01.eml  
-- 2020-05-05-phishing-email-example-02.eml  
-- 2020-05-05-phishing-email-example-03.eml  
-- 2020-05-05-phishing-email-example-04.eml  
+**Password-protected archive extracted using 7-Zip**
+![7-Zip extraction](screenshots/screenshot-7zip-extraction.png)
+
+**Password source verified from Malware-Traffic-Analysis.net About page**
+![Password verification](screenshots/screenshot-password-source.png)
+
+**Extracted phishing email samples in .eml format**
+![Extracted emails](screenshots/screenshot-extracted-emails.png)
 
 These artifacts form the basis for subsequent phishing analysis and indicator-of-compromise (IOC) development.
 
+These artifacts form the basis for subsequent phishing analysis and indicator-of-compromise (IOC) development.
 
-
-
-
-### 5.2 Password-Protected Archive Verification
-The phishing samples were provided in a password-protected ZIP archive to prevent accidental execution of malicious files. The password format was verified from the website’s About page before extraction.
 
 
 ## Investigation Status
