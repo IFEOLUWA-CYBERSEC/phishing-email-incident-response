@@ -1,0 +1,1 @@
+mail.example-malicious.com  # Sanitized placeholder domain
