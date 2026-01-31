@@ -1,0 +1,1 @@
+sender@example-phish.com  # Sanitized sender address
