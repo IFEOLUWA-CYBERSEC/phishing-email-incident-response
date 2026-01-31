@@ -1,0 +1,31 @@
+title: Suspicious Phishing Email Indicators Detected
+id: 8c4f9e2a-9d2a-4c9e-b7a1-9a3d0e91f1b2
+status: experimental
+description: >
+  Detects phishing emails based on known malicious sender addresses,
+  domains, and IP indicators identified during an incident response investigation.
+author: Ifeoluwa Daramola
+date: 2026/01/31
+references:
+  - Internal phishing incident investigation case study
+logsource:
+  product: email
+  service: email_gateway
+detection:
+  sender_email:
+    sender:
+      - "sender@example-phish.com"
+  sender_domain:
+    sender_domain:
+      - "mail.example-malicious.com"
+  source_ip:
+    src_ip:
+      - "173.46.174.49"
+  condition: sender_email or sender_domain or source_ip
+falsepositives:
+  - Legitimate emails using similar display names or domains
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1566
+  - attack.t1566.001
