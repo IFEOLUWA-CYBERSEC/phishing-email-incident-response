@@ -1,8 +1,18 @@
 
 
 ## Project Overview
+
 This project simulates a real-world SOC phishing investigation.  
 The objective was to analyze a suspicious email, extract indicators of compromise (IOCs), assess risk, and recommend remediation actions following SOC playbooks.
+
+## Purpose & Ethical Use
+
+This repository documents a phishing email incident-response investigation conducted for defensive security research, SOC training, and educational purposes only.
+
+All materials are intended for lawful use in controlled, isolated environments.  
+Do **not** use any content in this repository to conduct real phishing campaigns, target real users, or test systems without explicit written authorization.
+
+The focus of this project is detection, analysis, documentation, and remediation of phishing threats.
 
 ## Tools Used
 - VirusTotal
