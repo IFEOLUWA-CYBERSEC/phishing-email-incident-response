@@ -5,6 +5,24 @@
 This project simulates a real-world SOC phishing investigation.  
 The objective was to analyze a suspicious email, extract indicators of compromise (IOCs), assess risk, and recommend remediation actions following SOC playbooks.
 
+# Phishing Email Incident Response — SOC Case Study
+
+## TL;DR
+A defensive Security Operations Center (SOC) case study documenting the end-to-end investigation of a real-world phishing email, including header analysis, IOC extraction, threat enrichment, MITRE ATT&CK mapping, and remediation recommendations.
+
+## Quick Facts
+- **Role:** SOC Analyst / Incident Responder (solo)
+- **Incident Type:** Phishing (credential harvesting)
+- **Tools:** Email header analysis, VirusTotal, WHOIS, MITRE ATT&CK, Python (email parsing), Jupyter
+- **Key Outputs:** Sanitized incident report, structured IOCs, detection recommendations
+- **Time to Complete:** ~6 hours (analysis, enrichment, reporting)
+- **Focus Areas:** Phishing analysis, evidence handling, detection engineering, reporting
+
+## Why This Project
+This project demonstrates practical SOC skills used in real environments: identifying phishing infrastructure, extracting and enriching indicators, mapping attacker behavior, and producing clear, professional incident documentation — while applying proper evidence hygiene and ethical handling.
+
+> ⚠️ **Ethical Notice:** All sensitive artifacts (passwords, raw `.eml` files, and identifying information) have been sanitized or withheld. Raw evidence is stored privately and not published.
+
 ## Purpose & Ethical Use
 
 This repository documents a phishing email incident-response investigation conducted for defensive security research, SOC training, and educational purposes only.
