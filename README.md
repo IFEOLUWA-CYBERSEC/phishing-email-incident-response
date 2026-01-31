@@ -59,3 +59,5 @@ This screenshot shows the analysis of SMTP headers used to identify the email or
 ### GitHub Project Structure
 ![Repository Overview](screenshots/Screenshot%202026-01-28%20154020.png)
 This screenshot shows the analysis of SMTP headers used to identify the email origin and delivery path.
+
+Note: This repository is documentation-based and does not publish releases or packages.
